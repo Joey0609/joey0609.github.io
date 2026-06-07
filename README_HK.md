@@ -1,88 +1,93 @@
-<h1 align="center">Hi 👋, I'm Joey0609</h1>
-<p align="center">Embedded, AI and IoT Engineer | Full-Stack Hardware & Software Developer</p>
+<h1 align="center">Hi 👋，我是 Joey0609</h1>
+<p align="center">嵌入式、AI與物聯網工程師 | 軟硬體全端開發者</p>
 
 <p align="left"> 
   <img src="https://komarev.com/ghpvc/?username=Joey0609&label=Profile%20views&color=0e75b6&style=flat" alt="Joey0609" /> 
   <img src="https://img.shields.io/github/followers/Joey0609?style=flat&color=0e75b6" alt="followers" />
 </p>
 
-<a href="README_CN.md">简体中文</a> | English | <a href="README_HK.md">繁體中文</a>
+<a href="README_CN.md">简体中文</a> | <a href="README.md">English</a> | 繁體中文
 
-- 🔭 I'm currently working on **Deep Learning Based Multi-scenario PDR — combining inertial navigation with deep learning for robust pedestrian positioning across diverse scenarios.**
+- 🔭 我目前正在研究 **基於深度學習的多場景 PDR——將慣性導航與深度學習結合，讓行人在各種場景下都能獲得穩健的定位**
 
-- 🌱 I'm currently learning **Deep Learning & Large Language Models**
+- 🌱 我正在學習 **深度學習與大語言模型**
 
-- 👯 I'm looking to collaborate on **research-oriented projects in embedded systems, sensor fusion, and localization, while seeking graduate study opportunities.**
+- 👯 希望合作 **嵌入式系統、感測器融合與定位方向的科研專案，也正在尋找研究所深造機會**
 
-- 📫 How to reach me **muzz2023@mails.jlu.edu.cn**
+- 📫 聯絡方式 **muzz2023@mails.jlu.edu.cn**
 
-- ⚡ **Coding is my favorite pastime. Nothing beats the sense of accomplishment when my ideas finally work.**
+- ⚡ **徜徉程式碼世界，唯有構想落地之際，方能體會極致的滿足。**
 
-- 📝 I regularly write articles on **[https://joey0609.github.io](https://joey0609.github.io)**
+- 📝 我的部落格 **[https://joey0609.github.io](https://joey0609.github.io)**
 
----
-
-## 🔬 Research Experience
-
-### 1. Anchor Free Cooperative Positioning System Fusing UWB & INS
-*May 2025 – Apr 2026* | 👤 Team Leader
-
-Built a complete multi-node cooperative positioning platform, including sensing hardware, intelligent charging management, Web/desktop visualization software, and localization algorithms. The equipment has passed reliability verification and entered mass production.
-
-🔥 **Core Tech & Real-World Performance**
-1. ⚡ Hardware Performance: Foot-mounted IMU nodes deliver stable **200Hz** inertial data output, with peak refresh rate of **300Hz**, balancing low cost with high sampling performance. A 16-channel intelligent charging station supports simultaneous charging, status monitoring, and batch debugging.
-2. 🛡️ Algorithm Optimization: Integrated **ZUPT** (Zero Velocity Update) algorithm significantly suppresses INS cumulative drift, ensuring stable long-duration walking navigation.
-3. 📍 Anchor-Free Localization: Designed an **MDS auto-alignment algorithm** that relies solely on inter-node ranging and inertial data to reconstruct spatial poses under zero-beacon, zero-initial-coordinate conditions.
-4. 🔗 Fusion Positioning: **UKF filtering** is used for tightly-coupled UWB/INS fusion, achieving **centimeter-level** positioning accuracy.
-5. 🧪 Field Tests:
-   - Indoor (28m × 15m basketball court): 5 nodes running synchronously, 120s continuous motion, 100-frame sampling — straight lines, turns, loops, and other irregular trajectories are accurately reconstructed.
-   - Outdoor (1000m long-distance route): Multiple repeated test trajectories show strong consistency, closely matching satellite imagery.
-   - Compatible with walking cadences of 90/100/120 steps/min; periodic errors are effectively suppressed.
-
-🛠️ **Tech Stack**: ESP32-C6, STM32, BMI088, ADXL355, FreeRTOS, UWB/IMU Fusion, Electron, MATLAB
-
-📖 [View detailed project introduction →](https://joey0609.github.io/research/cooperative-positioning)
-
-### 2. Deep Learning Based Multi-scenario PDR
-*Jan 2026 – Present* | **Role**: Project Leader
-
-Leading the overall design and development of a deep learning enhanced Pedestrian Dead Reckoning system. Covering hardware adaptation, algorithm research, model deployment and system verification across diverse walking scenarios.
+<h3 align="left">聯絡我：</h3>
+<p align="left">
+<a href="https://github.com/Joey0609" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="Joey0609" height="30" width="40" /></a>
+</p>
 
 ---
 
-## 🚀 Featured Projects
+## 🔬 科研經歷
+
+### 1. 基於 UWB 與 INS 融合的無基地臺協同定位系統
+*2025.05 – 2026.04* | 👤 團隊負責人
+
+搭建完整的多節點協同定位平台，包含感知硬體、智慧充電管理、Web/桌面視覺化軟體與定位演算法體系，設備已通過可靠性驗證並投入批量生產。
+
+🔥 **核心技術 + 實測數據效果**
+1. ⚡ 硬體性能：足綁IMU節點穩定輸出**200Hz**慣性數據，峰值刷新率**300Hz**，兼顧低成本與高採樣性能；配套16路智慧充電站，支援多路設備同步充電、狀態監測與批量除錯。
+2. 🛡️ 演算法優化：整合 **ZUPT 零速更新** 演算法，大幅削弱INS累積漂移，保障長時間行走導航穩定性。
+3. 📍 無錨點定位：運用 **MDS 自動對齊演算法**，純依靠節點間測距與慣性數據，在零基地臺、零初始座標條件下完成空間位姿重建。
+4. 🔗 融合定位：採用 **UKF 濾波** 實現UWB與INS緊耦合，整體定位精度達到**釐米級**。
+5. 🧪 場景實測：
+   - 室內（28m×15m籃球場）：5個節點同步運行，120秒連續運動、100幀採樣下，直線、轉彎、繞圈等不規則路徑均可精準還原；
+   - 室外（1000米長距離路線）：多組重複測試軌跡一致性强，與實景衛星圖高度匹配；
+   - 相容90/100/120步/分鐘多種行走步伐，週期性誤差得到有效抑制。
+
+🛠️ **技術棧**：ESP32-C6, STM32, BMI088, ADXL355, FreeRTOS, UWB/IMU融合, Electron, MATLAB
+
+📖 [檢視專案詳細介紹 →](https://joey0609.github.io/research/cooperative-positioning)
+
+### 2. 基於深度學習的多場景 PDR（行人航位推算）
+*2026.01 – 至今* | **角色**：專案負責人
+
+主導基於深度學習增強的行人航位推算系統的整體設計與研發，涵蓋硬體適配、演算法研究、模型部署及多場景下的系統驗證。
+
+---
+
+## 🚀 精選專案
 
 ### [NOTAM Website Viewer](https://github.com/Joey0609/notams)
 <img src="https://img.shields.io/github/stars/Joey0609/notams?style=social" alt="GitHub stars"> <img src="https://img.shields.io/badge/dynamic/json?color=blue&amp;label=Visits&amp;query=value&amp;url=https://joey0609.github.io/notams/visits.json" alt="Website Visits">
 
-🌐 **Website:** [https://joey0609.github.io/notams/](https://joey0609.github.io/notams/)
+🌐 **網站：** [https://joey0609.github.io/notams/](https://joey0609.github.io/notams/)
 
-Parses NOTAMs (Notice to Airmen) and maritime safety notices to extract rocket launch areas, debris zones, and restricted zones, then visualizes them on an interactive map.
+解析 NOTAM（航行通告）與海事安全通告，從中提取火箭發射區、碎片區和限制區資訊，在互動式地圖上清晰呈現。
 
-**Key Features**:
-- Automated real-time crawling and parsing of multi-source NOTAM & MSI data
-- Interactive map visualization with historical archive matching and source reconciliation
-- Coordinate lookup, distance measurement, and image export
-- Time window parsing and deduplication across heterogeneous notice formats
+**主要功能**：
+- 多來源 NOTAM 與 MSI 資料的自動即時爬取與解析
+- 互動式地圖視覺化，支援歷史歸檔比對與多來源比對
+- 座標查詢、距離測量、圖片匯出
+- 跨異構通告格式的時間視窗解析與智慧去重
 
 ### [Rocket Launch Live Control & Visualization System](https://github.com/Joey0609/rocket-mission-control)
 <img src="https://img.shields.io/github/stars/Joey0609/rocket-mission-control?style=social" alt="GitHub stars">
 
-- Real-time rocket launch monitoring and control interface with live telemetry visualization
-- Web-based command & control system with multi-client synchronization
-- Integrated data logging and playback for post-launch analysis
+- 即時火箭發射監控與指揮介面，支援即時遙測視覺化
+- 基於 Web 的指揮控制系統，多用戶端即時同步
+- 整合資料記錄與回放功能，便於發射後覆盤分析
 
 ---
 
-## 🛠️ Skills
+## 🛠️ 技能
 
-- ⚙️ Full-Cycle Embedded Development & Debugging
-- 🔌 Hardware Schematic & PCB Design
-- 📍 Multi-Sensor Fusion & Navigation Positioning
-- 🤖 AI & Deep Learning
-- 🖥️ Full-Stack Visualization System Development
+- ⚙️ 嵌入式全流程開發與除錯
+- 🔌 硬體原理圖和PCB設計
+- 📍 多感測器融合 & 導航定位
+- 🤖 人工智慧 & 深度學習
+- 🖥️ 前後端視覺化系統開發
 
-**🌐 Languages:**
+**🌐 程式語言：**
 
 [![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)](https://en.cppreference.com/w/c)
 [![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)](https://isocpp.org/) [![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=csharp&logoColor=white)](https://learn.microsoft.com/en-us/dotnet/csharp/)
@@ -98,7 +103,7 @@ Parses NOTAMs (Notice to Airmen) and maritime safety notices to extract rocket l
 [![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=flat&logo=latex&logoColor=white)](https://www.latex-project.org/)
 [![Lua](https://img.shields.io/badge/Lua-2C2D72?style=flat&logo=lua&logoColor=white)](https://www.lua.org/)
 
-**🤖 AI / ML & Data:**
+**🤖 AI / 機器學習與資料：**
 
 [![ChatGPT](https://img.shields.io/badge/ChatGPT-74AA9C?style=flat&logo=openai&logoColor=white)](https://chatgpt.com/)
 [![Claude](https://img.shields.io/badge/Claude-D97706?style=flat&logo=claude&logoColor=white)](https://claude.ai/)
@@ -109,7 +114,7 @@ Parses NOTAMs (Notice to Airmen) and maritime safety notices to extract rocket l
 [![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)](https://opencv.org/)
 [![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat&logo=mathworks&logoColor=white)](https://www.mathworks.com/)
 
-**🧩 Frameworks & Frontend:**
+**🧩 框架與前端：**
 
 [![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)](https://react.dev/)
 [![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=flat&logo=vue.js&logoColor=4FC08D)](https://vuejs.org/)
@@ -124,7 +129,7 @@ Parses NOTAMs (Notice to Airmen) and maritime safety notices to extract rocket l
 [![ECharts](https://img.shields.io/badge/ECharts-AA344D?style=flat&logo=echarts&logoColor=white)](https://echarts.apache.org/)
 [![CanvasJS](https://img.shields.io/badge/CanvasJS-00ACC1?style=flat&logo=javascript&logoColor=white)](https://canvasjs.com/)
 
-**⚙️ Embedded & Hardware:**
+**⚙️ 嵌入式與硬體：**
 
 [![STM32](https://img.shields.io/badge/STM32-03234B?style=flat&logo=stmicroelectronics&logoColor=white)](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html)
 [![STM32CubeMX](https://img.shields.io/badge/STM32CubeMX-03234B?style=flat&logo=stmicroelectronics&logoColor=white)](https://www.st.com/en/development-tools/stm32cubemx.html)
@@ -137,7 +142,7 @@ Parses NOTAMs (Notice to Airmen) and maritime safety notices to extract rocket l
 [![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)](https://www.linux.org/)
 [![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?style=flat&logo=androidstudio&logoColor=white)](https://developer.android.com/studio)
 
-**🛠 Dev & Build Tools:**
+**🛠 開發與建置工具：**
 
 [![Git](https://img.shields.io/badge/Git-E34F26?style=flat&logo=git&logoColor=white)](https://git-scm.com/)
 [![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat&logo=cmake&logoColor=white)](https://cmake.org/)
@@ -153,10 +158,10 @@ Parses NOTAMs (Notice to Airmen) and maritime safety notices to extract rocket l
 [![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white)](https://www.gnu.org/software/bash/)
 [![Terminal](https://img.shields.io/badge/Terminal-4D4D4D?style=flat&logo=terminal&logoColor=white)](https://learn.microsoft.com/en-us/windows/terminal/)
 
-**🔌 Hardware Design & Other:**
+**🔌 硬體設計與其他：**
 
 [![Altium Designer](https://img.shields.io/badge/Altium%20Designer-A5915F?style=flat&logo=altiumdesigner&logoColor=white)](https://www.altium.com/)
-[![嘉立创EDA](https://img.shields.io/badge/嘉立创EDA-0078D4?style=flat)](https://www.lceda.cn/)
+[![嘉立創EDA](https://img.shields.io/badge/嘉立創EDA-0078D4?style=flat)](https://www.lceda.cn/)
 [![KiCad](https://img.shields.io/badge/KiCad-314CB0?style=flat&logo=kicad&logoColor=white)](https://www.kicad.org/)
 [![MultiSim](https://img.shields.io/badge/MultiSim-FFCD00?style=flat&logo=nationalinstruments&logoColor=black)](https://www.ni.com/en-us/shop/electronic-test-instrumentation/application-software-for-electronic-test-and-instrumentation-category/what-is-multisim.html)
 [![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat&logo=wireshark&logoColor=white)](https://www.wireshark.org/)
