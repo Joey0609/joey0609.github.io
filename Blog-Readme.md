@@ -4,7 +4,7 @@
 # 你需要参考：http://fineday.vip/ 的内容
 基于 [Astro](https://astro.build) 开发的静态博客模板。
 
-[**🖥️在线预览（Vercel）**](https://fuwari.vercel.app)
+[**🖥️在线预览**](https://joey0609.github.io)
 
 ![Preview Image](https://raw.githubusercontent.com/saicaca/resource/main/fuwari/home.png)
 
@@ -47,7 +47,7 @@ deno run -A npm:create-fuwari@latest
 
 1. 通过配置文件 `src/config.ts` 自定义博客
 2. 执行 `pnpm new-post <filename>` 创建新文章，并在 `src/content/posts/` 目录中编辑
-3. 参考[官方指南](https://docs.astro.build/zh-cn/guides/deploy/)将博客部署至 Vercel, Netlify, GitHub Pages 等；部署前需编辑 `astro.config.mjs` 中的站点设置。
+3. 部署到 GitHub Pages：推送 main 分支后，GitHub Actions 会自动执行 `Biome Lint → Astro Check → Build → Deploy`。
 
 ## 🚀 使用方法 2
 
@@ -56,7 +56,7 @@ deno run -A npm:create-fuwari@latest
    - 若未安装 [pnpm](https://pnpm.io)，执行 `npm install -g pnpm`
 3. 通过配置文件 `src/config.ts` 自定义博客
 4. 执行 `pnpm new-post <filename>` 创建新文章，并在 `src/content/posts/` 目录中编辑
-5. 参考[官方指南](https://docs.astro.build/zh-cn/guides/deploy/)将博客部署至 Vercel, Netlify, GitHub Pages 等；部署前需编辑 `astro.config.mjs` 中的站点设置。
+5. 部署到 GitHub Pages：推送 main 分支后，GitHub Actions 会自动部署。
 
 ## ⚙️ 文章 Frontmatter
 
@@ -86,3 +86,18 @@ lang: jp      # 仅当文章语言与 `config.ts` 中的网站语言不同时需
 | `pnpm new-post <filename>`        | 创建新文章                             |
 | `pnpm astro ...`                  | 执行 `astro add`, `astro check` 等指令 |
 | `pnpm astro --help`               | 显示 Astro CLI 帮助                   |
+| `pnpm format`                     | Biome 格式化所有源码                      |
+| `pnpm lint`                       | Biome 检查并自动修复 lint/格式问题           |
+| `pnpm check`                      | Astro 类型检查                         |
+
+## 🎨 本地 Biome 代码检查
+
+推送前在本地运行，避免 CI 失败：
+
+```sh
+# 格式化所有源码
+pnpm format
+
+# lint 检查 + 自动修复（推荐，一步到位）
+pnpm lint
+```

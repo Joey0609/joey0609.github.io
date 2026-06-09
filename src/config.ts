@@ -47,7 +47,7 @@ export const navBarConfig: NavBarConfig = {
 		{
 			name: "GitHub",
 			url: "https://github.com/joey0609", // 内部链接不应包含基础路径，因为会自动添加
-			external: true, 					// 显示外部链接图标，并在新标签页中打开
+			external: true, // 显示外部链接图标，并在新标签页中打开
 		},
 	],
 };
