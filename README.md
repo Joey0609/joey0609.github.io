@@ -4,8 +4,7 @@
 <p align="left"> 
   <img src="https://komarev.com/ghpvc/?username=Joey0609&label=Profile%20views&color=0e75b6&style=flat" alt="Joey0609" /> 
   <img src="https://img.shields.io/github/followers/Joey0609?style=flat&color=0e75b6" alt="followers" />
-</p>
-
+</p> 
 <a href="README_CN.md">简体中文</a> | English | <a href="README_HK.md">繁體中文</a>
 
 - 🔭 I'm currently working on **Deep Learning Based Multi-scenario PDR — combining inertial navigation with deep learning for robust pedestrian positioning across diverse scenarios.**
@@ -157,7 +156,6 @@ Parses NOTAMs (Notice to Airmen) and maritime safety notices to extract rocket l
 
 [![Altium Designer](https://img.shields.io/badge/Altium%20Designer-A5915F?style=flat&logo=altiumdesigner&logoColor=white)](https://www.altium.com/)
 [![嘉立创EDA](https://img.shields.io/badge/嘉立创EDA-0078D4?style=flat)](https://www.lceda.cn/)
-[![KiCad](https://img.shields.io/badge/KiCad-314CB0?style=flat&logo=kicad&logoColor=white)](https://www.kicad.org/)
 [![MultiSim](https://img.shields.io/badge/MultiSim-FFCD00?style=flat&logo=nationalinstruments&logoColor=black)](https://www.ni.com/en-us/shop/electronic-test-instrumentation/application-software-for-electronic-test-and-instrumentation-category/what-is-multisim.html)
 [![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat&logo=wireshark&logoColor=white)](https://www.wireshark.org/)
 [![Bambu Studio](https://img.shields.io/badge/Bambu%20Studio-00AE42?style=flat&logo=bambulab&logoColor=white)](https://bambulab.com/en/download/studio)

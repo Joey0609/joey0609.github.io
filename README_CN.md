@@ -157,7 +157,8 @@
 
 [![Altium Designer](https://img.shields.io/badge/Altium%20Designer-A5915F?style=flat&logo=altiumdesigner&logoColor=white)](https://www.altium.com/)
 [![嘉立创EDA](https://img.shields.io/badge/嘉立创EDA-0078D4?style=flat)](https://www.lceda.cn/)
-[![KiCad](https://img.shields.io/badge/KiCad-314CB0?style=flat&logo=kicad&logoColor=white)](https://www.kicad.org/)
+[![Vivado](https://img.shields.io/badge/Vivado-F01F30?style=flat&logo=amd&logoColor=white)](https://www.xilinx.com/products/design-tools/vivado.html)
+[![Vitis](https://img.shields.io/badge/Vitis-F01F30?style=flat&logo=amd&logoColor=white)](https://www.xilinx.com/products/design-tools/vitis.html)
 [![MultiSim](https://img.shields.io/badge/MultiSim-FFCD00?style=flat&logo=nationalinstruments&logoColor=black)](https://www.ni.com/en-us/shop/electronic-test-instrumentation/application-software-for-electronic-test-and-instrumentation-category/what-is-multisim.html)
 [![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat&logo=wireshark&logoColor=white)](https://www.wireshark.org/)
 [![Bambu Studio](https://img.shields.io/badge/Bambu%20Studio-00AE42?style=flat&logo=bambulab&logoColor=white)](https://bambulab.com/en/download/studio)

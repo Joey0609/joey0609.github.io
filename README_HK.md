@@ -4,9 +4,7 @@
 <p align="left"> 
   <img src="https://komarev.com/ghpvc/?username=Joey0609&label=Profile%20views&color=0e75b6&style=flat" alt="Joey0609" /> 
   <img src="https://img.shields.io/github/followers/Joey0609?style=flat&color=0e75b6" alt="followers" />
-</p>
-
-<a href="README_CN.md">简体中文</a> | <a href="README.md">English</a> | 繁體中文
+</p> <a href="README_CN.md">简体中文</a> | <a href="README.md">English</a> | 繁體中文
 
 - 🔭 我目前正在研究 **基於深度學習的多場景 PDR——將慣性導航與深度學習結合，讓行人在各種場景下都能獲得穩健的定位**
 
@@ -162,7 +160,8 @@
 
 [![Altium Designer](https://img.shields.io/badge/Altium%20Designer-A5915F?style=flat&logo=altiumdesigner&logoColor=white)](https://www.altium.com/)
 [![嘉立創EDA](https://img.shields.io/badge/嘉立創EDA-0078D4?style=flat)](https://www.lceda.cn/)
-[![KiCad](https://img.shields.io/badge/KiCad-314CB0?style=flat&logo=kicad&logoColor=white)](https://www.kicad.org/)
+[![Vivado](https://img.shields.io/badge/Vivado-F01F30?style=flat&logo=amd&logoColor=white)](https://www.xilinx.com/products/design-tools/vivado.html)
+[![Vitis](https://img.shields.io/badge/Vitis-F01F30?style=flat&logo=amd&logoColor=white)](https://www.xilinx.com/products/design-tools/vitis.html)
 [![MultiSim](https://img.shields.io/badge/MultiSim-FFCD00?style=flat&logo=nationalinstruments&logoColor=black)](https://www.ni.com/en-us/shop/electronic-test-instrumentation/application-software-for-electronic-test-and-instrumentation-category/what-is-multisim.html)
 [![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat&logo=wireshark&logoColor=white)](https://www.wireshark.org/)
 [![Bambu Studio](https://img.shields.io/badge/Bambu%20Studio-00AE42?style=flat&logo=bambulab&logoColor=white)](https://bambulab.com/en/download/studio)
