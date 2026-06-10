@@ -41,9 +41,9 @@ export const siteConfig: SiteConfig = {
 
 export const navBarConfig: NavBarConfig = {
 	links: [
-		LinkPreset.About,
 		LinkPreset.Home,
 		LinkPreset.Archive,
+		LinkPreset.About,
 		{
 			name: "GitHub",
 			url: "https://github.com/joey0609", // 内部链接不应包含基础路径，因为会自动添加
@@ -53,21 +53,14 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/demo-avatar.png", // 相对于 /src 目录。如果以 '/' 开头则相对于 /public 目录
-	name: "Lorem Ipsum",
-	bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+	avatar: "assets/images/avatar.jpg", // 相对于 /src 目录。如果以 '/' 开头则相对于 /public 目录
+	name: "Joey0609",
+	bio: "Per aspera ad astra.寻此苦旅，终抵群星。",
 	links: [
 		{
-			name: "Twitter",
-			icon: "fa6-brands:twitter", // 访问 https://icones.js.org/ 获取图标代码
-			// 如果尚未安装，您需要安装对应的图标集
-			// `pnpm add @iconify-json/<图标集名称>`
-			url: "https://twitter.com",
-		},
-		{
-			name: "Steam",
-			icon: "fa6-brands:steam",
-			url: "https://store.steampowered.com",
+			name: "Email",
+			icon: "fa6-solid:envelope",
+			url: "mailto:muzz2023@mails.jlu.edu.cn",
 		},
 		{
 			name: "GitHub",
