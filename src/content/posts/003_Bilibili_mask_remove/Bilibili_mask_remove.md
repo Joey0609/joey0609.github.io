@@ -1,7 +1,7 @@
 ---
-title: Bilibili 直播去遮挡—移除弹窗/礼物蒙层
+title: Bilibili 直播去遮挡—移除马赛克蒙层
 published: 2024-01-23
-description: "Bilibili 直播页面去除遮挡蒙层的多种方法——从简单的 Console 命令到 Tampermonkey 油猴脚本，适用于电脑端。"
+description: "Bilibili 直播页面去除马赛克蒙层的多种方法——Tampermonkey 油猴脚本，适用于电脑端。"
 tags: ["Bilibili", "直播", "油猴脚本", "Tampermonkey", "JavaScript", "教程"]
 category: Tutorial
 draft: false
@@ -12,7 +12,6 @@ draft: false
 ---
 
 ## 🧰 四种解决方法
-
 ### 方法一 🚀 Console 一键隐藏
 
 按 `F12` 打开**控制台（Console）**，输入以下内容并回车：
@@ -26,7 +25,6 @@ document.getElementById('web-player-module-area-mask-panel').style.display = 'no
 ✅ **最快速** — 无需安装任何东西，一次管一次。
 
 ---
-
 ### 方法二 🎯 元素删除法
 
 按 `F12` 打开**元素面板（Element）**，找到以下节点：
@@ -36,7 +34,6 @@ document.getElementById('web-player-module-area-mask-panel').style.display = 'no
 按 `Delete` 键删除即可。
 
 ---
-
 ### 方法三 📦 使用现成油猴脚本
 
 **Bilibili Live Tasks Helper**
@@ -50,7 +47,6 @@ document.getElementById('web-player-module-area-mask-panel').style.display = 'no
 ![alt text](965817623848663810dc1bdc534f62041675846117.png)
 
 ---
-
 ### 方法四 ✍️ 自建油猴脚本
 
 如果现成脚本不好用，可以自己动手创建一个新的油猴脚本，然后把下面的代码复制进去就行啦 ✨
