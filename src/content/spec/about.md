@@ -8,10 +8,6 @@ I'm currently working on **Deep Learning Based Multi-scenario PDR** — combinin
 
 I'm looking to collaborate on **research-oriented projects in embedded systems, sensor fusion, and localization**, while seeking graduate study opportunities.
 
-- 📫 Email: **muzz2023@mails.jlu.edu.cn**
-- 📝 Blog: **[https://joey0609.github.io](https://joey0609.github.io)**
-- 🐙 GitHub: **[https://github.com/joey0609](https://github.com/joey0609)**
-
 ---
 
 ## 🔬 Research Experience
