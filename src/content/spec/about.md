@@ -2,12 +2,11 @@
 
 Hi 👋, I'm **Joey0609**, an **Embedded, AI and IoT Engineer** and **Full-Stack Hardware & Software Developer**.
 
-> *"Coding is my favorite pastime. Nothing beats the sense of accomplishment when my ideas finally work."*
-
 I'm currently working on **Deep Learning Based Multi-scenario PDR** — combining inertial navigation with deep learning for robust pedestrian positioning across diverse scenarios. I'm also actively learning **Deep Learning & Large Language Models**.
 
 I'm looking to collaborate on **research-oriented projects in embedded systems, sensor fusion, and localization**, while seeking graduate study opportunities.
 
+> *"Coding is my favorite pastime. Nothing beats the sense of accomplishment when my ideas finally work."*
 ---
 
 ## 🔬 Research Experience

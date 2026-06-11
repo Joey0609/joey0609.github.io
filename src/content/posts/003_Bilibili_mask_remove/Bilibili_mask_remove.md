@@ -2,7 +2,7 @@
 title: Bilibili 直播去遮挡—移除马赛克蒙层
 published: 2024-01-23
 description: "Bilibili 直播页面去除马赛克蒙层的多种方法——Tampermonkey 油猴脚本，适用于电脑端。"
-tags: ["Bilibili", "直播", "油猴脚本", "Tampermonkey", "JavaScript", "教程"]
+tags: ["Bilibili", "Tampermonkey", "JavaScript", "Tutorial"]
 category: Tutorial
 draft: false
 ---

@@ -2,7 +2,7 @@
 title: GM220S 超级管理员密码获取教程
 published: 2025-03-01
 description: "GM220S 光猫超级管理员密码破解教程——当默认密码失效时，通过 Telnet + U盘提取配置文件解密获取超级管理员权限。"
-tags: ["GM220S", "光猫", "破解", "教程"]
+tags: ["GM220S", "光猫", "Tutorial"]
 image: "./cover.png"
 category: Tutorial
 draft: false

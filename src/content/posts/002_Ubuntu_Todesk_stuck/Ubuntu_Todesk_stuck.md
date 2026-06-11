@@ -2,7 +2,7 @@
 title: 树莓派 Ubuntu 22.04 — Todesk 连接卡 100% 解决方案
 published: 2024-03-15
 description: "解决树莓派 Ubuntu 22.04 上 Todesk 连接进度卡在 100% 及 RealVNC Server 不显示 UI 的问题——都是 Wayland 协议兼容性惹的祸。"
-tags: ["树莓派", "Ubuntu", "Todesk", "VNC", "Wayland", "X11", "教程"]
+tags: [ "Ubuntu", "Todesk", "Wayland", "X11", "Tutorial"]
 category: Tutorial
 draft: false
 ---
