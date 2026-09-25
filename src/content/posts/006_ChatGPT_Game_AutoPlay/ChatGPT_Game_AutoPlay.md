@@ -7,11 +7,9 @@ category: Develop
 draft: false
 ---
 
-# 自动玩 ChatGPT 生成图片时的贪吃蛇
+**ChatGPT Game Autoplay**：在 ChatGPT 生成图片时自动玩贪吃蛇。它能认出棋盘、蛇头、食物，三种策略都能跑，面板上实时显示决策依据和路线。
 
-我做了一个浏览器扩展，能在 ChatGPT 生成图片时自动玩贪吃蛇。它能认出棋盘、蛇头、食物，三种策略都能跑，面板上实时显示决策依据和路线。
-
-**ChatGPT Game Autoplay**：一个浏览器扩展，当然也有一个油猴脚本版本。装好之后，启动自动游玩开关，插件能自动帮你玩贪吃蛇。
+装好之后，启动自动游玩开关，插件能自动帮你玩贪吃蛇。当然本扩展也做了一个油猴脚本的版本，安装后也能自动玩。
 
 ::github{repo="joey0609/ChatGPT-Game-AutoPlay"}
 
